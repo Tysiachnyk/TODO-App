@@ -179,6 +179,7 @@ export const App: React.FC = () => {
           type="button"
           className="delete"
           onClick={() => setErrorMessage('')}
+          aria-label="Hide error notification"
         />
         {errorMessage}
       </div>

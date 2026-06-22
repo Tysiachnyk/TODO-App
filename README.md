@@ -126,21 +126,3 @@ npm run lint
  
 ---
  
-## 📁 Project Structure
- 
-```
-src/
-├── components/
-│   ├── TodoApp/
-│   ├── TodoList/
-│   ├── TodoItem/
-│   ├── TodoFilter/
-│   └── ErrorNotification/
-├── utils/
-│   └── api/
-│       ├── fetchClient.ts
-│       └── todos.ts
-├── types/
-│   └── Todo.ts
-└── App.tsx
-```
