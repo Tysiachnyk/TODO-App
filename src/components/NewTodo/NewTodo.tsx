@@ -82,6 +82,7 @@ export const NewTodo: React.FC<Props> = ({
           className={cn('todoapp__toggle-all', { active: allCompleted })}
           data-cy="ToggleAllButton"
           onClick={toggleAllTodos}
+          aria-label="Toggle all todos"
         />
       )}
 

@@ -141,6 +141,7 @@ export const Todo: React.FC<Props> = ({
             className="todo__remove"
             data-cy="TodoDelete"
             onClick={handleDelete}
+            aria-label="Remove todo"
           >
             ×
           </button>

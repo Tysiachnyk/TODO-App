@@ -112,9 +112,11 @@ export const App: React.FC = () => {
 
   return (
     <div className="todoapp">
-      <h1 className="todoapp__title">todos</h1>
+      <header className="todoapp__header">
+        <h1 className="todoapp__title">todos</h1>
+      </header>
 
-      <div className="todoapp__content">
+      <main className="todoapp__content">
         <NewTodo
           allCompleted={allCompleted}
           todos={todos}
@@ -160,7 +162,7 @@ export const App: React.FC = () => {
             </button>
           </footer>
         )}
-      </div>
+      </main>
 
       <div
         data-cy="ErrorNotification"
